@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-"""Determines the fewest number of coins needed
+"""A function to determine the fewest number of coins needed
    to meet a given amount total"""
 
 
 def makeChange(coins, total):
-    """Calculates how much change the total of the list of
-	coins will require 
+    """This function will take a list of coins and use
+       that to calculate how much change the total will require
     """
     if total <= 0:
         return 0
